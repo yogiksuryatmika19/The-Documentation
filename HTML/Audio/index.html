@@ -75,6 +75,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#audio" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -1128,6 +1133,24 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Audio
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -1144,6 +1167,78 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur Audio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atribut-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atribut Video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atribut-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atribut Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contoh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contoh
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1174,6 +1269,69 @@
   
   
   
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Audio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#struktur-audio" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Struktur Audio
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atribut-video" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atribut Video
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#atribut-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Atribut Source
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contoh" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contoh
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -1240,7 +1398,69 @@
 
   <h1>Audio</h1>
 
-
+<h2 id="audio">Audio<a class="headerlink" href="#audio" title="Permanent link">&para;</a></h2>
+<p><code>&lt;video&gt;</code> adalah element yang digunakan untuk memuat audio pada halaman HTML</p>
+<hr />
+<h2 id="struktur-audio">Struktur Audio<a class="headerlink" href="#struktur-audio" title="Permanent link">&para;</a></h2>
+<p>Element audio memiliki struktur sebagai berikut</p>
+<ul>
+<li><code>&lt;audio&gt;</code> adalah container dari element audio</li>
+<li><code>&lt;source&gt;</code> adalah element item yang memuat file audio</li>
+</ul>
+<hr />
+<h2 id="atribut-video">Atribut Video<a class="headerlink" href="#atribut-video" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah atribut yang dapat ditambahkan</p>
+<table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>controls</code></td>
+<td>Menampilkan audio control (seperti play, pause, dll)</td>
+</tr>
+<tr>
+<td><code>autoplay</code></td>
+<td>Memutar audio otomatis setiap halaman baru dibuka</td>
+</tr>
+<tr>
+<td><code>muted</code></td>
+<td>Memute audio otomatis setiap halaman baru dibuka</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="atribut-source">Atribut Source<a class="headerlink" href="#atribut-source" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah atribut yang dapat ditambahkan</p>
+<table>
+<thead>
+<tr>
+<th>Atribut</th>
+<th>Keterangan</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>src</code></td>
+<td>URL / direktori dari file audio</td>
+</tr>
+<tr>
+<td><code>type</code></td>
+<td>Tipe format dari file audio</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="contoh">Contoh<a class="headerlink" href="#contoh" title="Permanent link">&para;</a></h2>
+<p>Berikut adalah contoh penggunaannya</p>
+<div class="language-html highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="p">&lt;</span><span class="nt">audio</span> <span class="na">controls</span><span class="p">&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  <span class="p">&lt;</span><span class="nt">source</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;horse.mp3&quot;</span> <span class="na">type</span><span class="o">=</span><span class="s">&quot;audio/mpeg&quot;</span> <span class="p">/&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">&lt;/</span><span class="nt">audio</span><span class="p">&gt;</span>
+</span></code></pre></div>
+<hr />
 
 
 
