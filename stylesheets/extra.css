@@ -205,6 +205,7 @@ nav.md-nav[data-md-level="2"] {
 .md-typeset h3 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
+    font-weight: bold;
     text-underline-offset: 10px;
     text-decoration-thickness: 1px;
     text-decoration-color: currentColor;
