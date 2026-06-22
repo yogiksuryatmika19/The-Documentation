@@ -1671,6 +1671,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#border-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Border Color
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#border-sides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1978,7 +1989,7 @@
   <span class="md-ellipsis">
     
   
-    Z Index
+    Z-Index
   
 
     
@@ -2382,6 +2393,17 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#border-color" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Border Color
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#border-sides" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -2493,13 +2515,42 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>none</td>
+</tr>
+<tr>
+<td>hidden</td>
+</tr>
+<tr>
+<td>dotted</td>
+</tr>
+<tr>
+<td>dashed</td>
+</tr>
+<tr>
+<td>solid</td>
+</tr>
+<tr>
+<td>double</td>
+</tr>
+<tr>
+<td>groove</td>
+</tr>
+<tr>
+<td>ridge</td>
+</tr>
+<tr>
+<td>inset</td>
+</tr>
+<tr>
+<td>outset</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">p</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="k">border-style</span><span class="p">:</span><span class="w"> </span><span class="kc">dotted</span><span class="p">;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="border-width">Border Width<a class="headerlink" href="#border-width" title="Permanent link">&para;</a></h2>
@@ -2514,14 +2565,56 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>px</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">p</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="k">border-style</span><span class="p">:</span><span class="w"> </span><span class="kc">solid</span><span class="p">;</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="w">  </span><span class="k">border-width</span><span class="p">:</span><span class="w"> </span><span class="mi">5</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-1-4"><a id="__codelineno-1-4" name="__codelineno-1-4" href="#__codelineno-1-4"></a><span class="p">}</span>
 </span></code></pre></div>
+<h2 id="border-color">Border Color<a class="headerlink" href="#border-color" title="Permanent link">&para;</a></h2>
+<p><code>border-color</code> adalah property yang dapat digunakan untuk mengatur warna border</p>
+<hr />
+<p>Berikut adalah value yang dapat ditambahkan</p>
+<table>
+<thead>
+<tr>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Color Name</td>
+</tr>
+<tr>
+<td>RGB</td>
+</tr>
+<tr>
+<td>HSL</td>
+</tr>
+<tr>
+<td>HEX</td>
+</tr>
+<tr>
+<td>RGBa</td>
+</tr>
+<tr>
+<td>HSLa</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Contoh</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">p</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="k">border-style</span><span class="p">:</span><span class="w"> </span><span class="kc">solid</span><span class="p">;</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="k">border-color</span><span class="p">:</span><span class="w"> </span><span class="kc">red</span><span class="p">;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="p">}</span>
+</span></code></pre></div>
+<hr />
 <hr />
 <h2 id="border-sides">Border Sides<a class="headerlink" href="#border-sides" title="Permanent link">&para;</a></h2>
 <p>Border sides adalah property yang digunakan untuk mengatur bagian border secara terpisah</p>
@@ -2535,7 +2628,19 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td><code>border</code></td>
+</tr>
+<tr>
+<td><code>border-top</code></td>
+</tr>
+<tr>
+<td><code>border-right</code></td>
+</tr>
+<tr>
+<td><code>border-bottom</code></td>
+</tr>
+<tr>
+<td><code>border-left</code></td>
 </tr>
 </tbody>
 </table>
@@ -2549,13 +2654,13 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td><code>border-width</code> | <code>border-style</code> | <code>border-color</code></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>
 </span></code></pre></div>
 <hr />
 <h2 id="border-shorthand">Border Shorthand<a class="headerlink" href="#border-shorthand" title="Permanent link">&para;</a></h2>
@@ -2570,13 +2675,13 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td><code>border-width</code> | <code>border-style</code> | <code>border-color</code></td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>
 </span></code></pre></div>
 <hr />
 <h2 id="border-radius">Border Radius<a class="headerlink" href="#border-radius" title="Permanent link">&para;</a></h2>
@@ -2591,13 +2696,13 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>px</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>
 </span></code></pre></div>
 <hr />
 

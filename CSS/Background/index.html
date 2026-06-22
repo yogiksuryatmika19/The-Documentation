@@ -2011,7 +2011,7 @@
   <span class="md-ellipsis">
     
   
-    Z Index
+    Z-Index
   
 
     
@@ -2559,13 +2559,30 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>Color Name</td>
+</tr>
+<tr>
+<td>RGB</td>
+</tr>
+<tr>
+<td>HSL</td>
+</tr>
+<tr>
+<td>HEX</td>
+</tr>
+<tr>
+<td>RGBa</td>
+</tr>
+<tr>
+<td>HSLa</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a><span class="w">  </span><span class="k">background-color</span><span class="p">:</span><span class="w"> </span><span class="kc">lightblue</span><span class="p">;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-image">Background Image<a class="headerlink" href="#background-image" title="Permanent link">&para;</a></h2>
@@ -2580,13 +2597,15 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>url("path/to/image.jpg")</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-1-2"><a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s2">&quot;bgdesert.jpg&quot;</span><span class="p">);</span>
+</span><span id="__span-1-3"><a id="__codelineno-1-3" name="__codelineno-1-3" href="#__codelineno-1-3"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-position">Background Position<a class="headerlink" href="#background-position" title="Permanent link">&para;</a></h2>
@@ -2601,13 +2620,23 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>left top<br>left center<br>left bottom<br>right top<br>right center<br>right bottom<br>center top<br>center center<br>center bottom</td>
+</tr>
+<tr>
+<td>x% y%</td>
+</tr>
+<tr>
+<td>xpos ypos</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-2-2"><a id="__codelineno-2-2" name="__codelineno-2-2" href="#__codelineno-2-2"></a><span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s2">&quot;img_tree.png&quot;</span><span class="p">);</span>
+</span><span id="__span-2-3"><a id="__codelineno-2-3" name="__codelineno-2-3" href="#__codelineno-2-3"></a><span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">no-repeat</span><span class="p">;</span>
+</span><span id="__span-2-4"><a id="__codelineno-2-4" name="__codelineno-2-4" href="#__codelineno-2-4"></a><span class="w">  </span><span class="k">background-position</span><span class="p">:</span><span class="w"> </span><span class="kc">right</span><span class="w"> </span><span class="kc">top</span><span class="p">;</span>
+</span><span id="__span-2-5"><a id="__codelineno-2-5" name="__codelineno-2-5" href="#__codelineno-2-5"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-size">Background Size<a class="headerlink" href="#background-size" title="Permanent link">&para;</a></h2>
@@ -2622,13 +2651,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>auto</td>
+</tr>
+<tr>
+<td>cover</td>
+</tr>
+<tr>
+<td>contain</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="p">#</span><span class="nn">div2</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-3-2"><a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">1</span><span class="kt">px</span><span class="w"> </span><span class="kc">solid</span><span class="w"> </span><span class="kc">black</span><span class="p">;</span>
+</span><span id="__span-3-3"><a id="__codelineno-3-3" name="__codelineno-3-3" href="#__codelineno-3-3"></a><span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="sx">img_flwr.gif</span><span class="p">);</span>
+</span><span id="__span-3-4"><a id="__codelineno-3-4" name="__codelineno-3-4" href="#__codelineno-3-4"></a><span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">no-repeat</span><span class="p">;</span>
+</span><span id="__span-3-5"><a id="__codelineno-3-5" name="__codelineno-3-5" href="#__codelineno-3-5"></a><span class="w">  </span><span class="k">background-size</span><span class="p">:</span><span class="w"> </span><span class="kc">cover</span><span class="p">;</span>
+</span><span id="__span-3-6"><a id="__codelineno-3-6" name="__codelineno-3-6" href="#__codelineno-3-6"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-repeat">Background Repeat<a class="headerlink" href="#background-repeat" title="Permanent link">&para;</a></h2>
@@ -2643,13 +2683,25 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>repeat</td>
+</tr>
+<tr>
+<td>repeat-x</td>
+</tr>
+<tr>
+<td>repeat-y</td>
+</tr>
+<tr>
+<td>no-repeat</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a><span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s2">&quot;gradient_bg.png&quot;</span><span class="p">);</span>
+</span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a><span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">repeat-x</span><span class="p">;</span>
+</span><span id="__span-4-4"><a id="__codelineno-4-4" name="__codelineno-4-4" href="#__codelineno-4-4"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-attachment">Background Attachment<a class="headerlink" href="#background-attachment" title="Permanent link">&para;</a></h2>
@@ -2664,13 +2716,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>scroll</td>
+</tr>
+<tr>
+<td>fixed</td>
+</tr>
+<tr>
+<td>local</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="nt">body</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-5-2"><a id="__codelineno-5-2" name="__codelineno-5-2" href="#__codelineno-5-2"></a><span class="w">  </span><span class="k">background-image</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="s2">&quot;img_tree.png&quot;</span><span class="p">);</span>
+</span><span id="__span-5-3"><a id="__codelineno-5-3" name="__codelineno-5-3" href="#__codelineno-5-3"></a><span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">no-repeat</span><span class="p">;</span>
+</span><span id="__span-5-4"><a id="__codelineno-5-4" name="__codelineno-5-4" href="#__codelineno-5-4"></a><span class="w">  </span><span class="k">background-position</span><span class="p">:</span><span class="w"> </span><span class="kc">right</span><span class="w"> </span><span class="kc">top</span><span class="p">;</span>
+</span><span id="__span-5-5"><a id="__codelineno-5-5" name="__codelineno-5-5" href="#__codelineno-5-5"></a><span class="w">  </span><span class="k">background-attachment</span><span class="p">:</span><span class="w"> </span><span class="kc">scroll</span><span class="p">;</span>
+</span><span id="__span-5-6"><a id="__codelineno-5-6" name="__codelineno-5-6" href="#__codelineno-5-6"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-origin">Background Origin<a class="headerlink" href="#background-origin" title="Permanent link">&para;</a></h2>
@@ -2685,13 +2748,25 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>padding-box</td>
+</tr>
+<tr>
+<td>border-box</td>
+</tr>
+<tr>
+<td>content-box</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="p">#</span><span class="nn">example1</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a><span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="kc">dashed</span><span class="w"> </span><span class="kc">black</span><span class="p">;</span>
+</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a><span class="w">  </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">25</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="nb">url</span><span class="p">(</span><span class="sx">paper.gif</span><span class="p">);</span>
+</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="w">  </span><span class="k">background-repeat</span><span class="p">:</span><span class="w"> </span><span class="kc">no-repeat</span><span class="p">;</span>
+</span><span id="__span-6-6"><a id="__codelineno-6-6" name="__codelineno-6-6" href="#__codelineno-6-6"></a><span class="w">  </span><span class="k">background-origin</span><span class="p">:</span><span class="w"> </span><span class="kc">content-box</span><span class="p">;</span>
+</span><span id="__span-6-7"><a id="__codelineno-6-7" name="__codelineno-6-7" href="#__codelineno-6-7"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 <h2 id="background-clip">Background Clip<a class="headerlink" href="#background-clip" title="Permanent link">&para;</a></h2>
@@ -2706,13 +2781,24 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>padding-box</td>
+</tr>
+<tr>
+<td>border-box</td>
+</tr>
+<tr>
+<td>content-box</td>
 </tr>
 </tbody>
 </table>
 <hr />
 <p>Contoh</p>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="nt">div</span><span class="w"> </span><span class="p">{</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a><span class="w">  </span><span class="k">border</span><span class="p">:</span><span class="w"> </span><span class="mi">10</span><span class="kt">px</span><span class="w"> </span><span class="kc">dotted</span><span class="w"> </span><span class="kc">black</span><span class="p">;</span>
+</span><span id="__span-7-3"><a id="__codelineno-7-3" name="__codelineno-7-3" href="#__codelineno-7-3"></a><span class="w">  </span><span class="k">padding</span><span class="p">:</span><span class="w"> </span><span class="mi">15</span><span class="kt">px</span><span class="p">;</span>
+</span><span id="__span-7-4"><a id="__codelineno-7-4" name="__codelineno-7-4" href="#__codelineno-7-4"></a><span class="w">  </span><span class="k">background</span><span class="p">:</span><span class="w"> </span><span class="kc">lightblue</span><span class="p">;</span>
+</span><span id="__span-7-5"><a id="__codelineno-7-5" name="__codelineno-7-5" href="#__codelineno-7-5"></a><span class="w">  </span><span class="k">background-clip</span><span class="p">:</span><span class="w"> </span><span class="kc">padding-box</span><span class="p">;</span>
+</span><span id="__span-7-6"><a id="__codelineno-7-6" name="__codelineno-7-6" href="#__codelineno-7-6"></a><span class="p">}</span>
 </span></code></pre></div>
 <hr />
 

@@ -1711,10 +1711,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#verical-collapse" class="md-nav__link">
+  <a href="#vertical-collapse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Verical Collapse
+        Vertical Collapse
       
     </span>
   </a>
@@ -1973,7 +1973,7 @@
   <span class="md-ellipsis">
     
   
-    Z Index
+    Z-Index
   
 
     
@@ -2389,10 +2389,10 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#verical-collapse" class="md-nav__link">
+  <a href="#vertical-collapse" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Verical Collapse
+        Vertical Collapse
       
     </span>
   </a>
@@ -2483,7 +2483,19 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td><code>margin</code></td>
+</tr>
+<tr>
+<td><code>margin-top</code></td>
+</tr>
+<tr>
+<td><code>margin-right</code></td>
+</tr>
+<tr>
+<td><code>margin-bottom</code></td>
+</tr>
+<tr>
+<td><code>margin-left</code></td>
 </tr>
 </tbody>
 </table>
@@ -2497,7 +2509,10 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
+<td>px</td>
+</tr>
+<tr>
+<td>-px</td>
 </tr>
 </tbody>
 </table>
@@ -2507,8 +2522,17 @@
 </span></code></pre></div>
 <hr />
 <h2 id="margin-collapse">Margin Collapse<a class="headerlink" href="#margin-collapse" title="Permanent link">&para;</a></h2>
+<p>Margin collapse terjadi ketika dua margin yang berlawanan arah bertemu</p>
 <h3 id="horizontal-collapse">Horizontal Collapse<a class="headerlink" href="#horizontal-collapse" title="Permanent link">&para;</a></h3>
-<h3 id="verical-collapse">Verical Collapse<a class="headerlink" href="#verical-collapse" title="Permanent link">&para;</a></h3>
+<p>Horizontal collapse terjadi ketika <code>margin-bottom</code> dari element A bertemu dengan <code>margin-top</code> dari element B</p>
+<p>Hasil kalkulasi akhir dari margin adalah penjumlahan dari kedua margin tersebut</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>
+</span></code></pre></div>
+<h3 id="vertical-collapse">Vertical Collapse<a class="headerlink" href="#vertical-collapse" title="Permanent link">&para;</a></h3>
+<p>Vertical collapse terjadi ketika <code>margin-right</code> dari element A bertemu dengan <code>margin-left</code> dari element B</p>
+<p>Hasil kalkulasi akhir dari margin adalah salah satu dari kedua margin yang memiliki nilai lebih besar</p>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>
+</span></code></pre></div>
 
 
 
