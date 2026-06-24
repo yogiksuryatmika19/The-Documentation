@@ -5,6 +5,14 @@
          <lastmod>2026-06-24</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/CSS/Background/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Border/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/CSS/Color/</loc>
          <lastmod>2026-06-24</lastmod>
     </url>
@@ -13,7 +21,31 @@
          <lastmod>2026-06-24</lastmod>
     </url>
     <url>
+         <loc>https://mydomain.org/mysite/CSS/Font/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
          <loc>https://mydomain.org/mysite/CSS/Getting%20Started/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Height%20%26%20Width/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/List/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Margin/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Outline/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Padding/</loc>
          <lastmod>2026-06-24</lastmod>
     </url>
     <url>
@@ -22,6 +54,10 @@
     </url>
     <url>
          <loc>https://mydomain.org/mysite/CSS/Syntax/</loc>
+         <lastmod>2026-06-24</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/CSS/Text/</loc>
          <lastmod>2026-06-24</lastmod>
     </url>
     <url>
