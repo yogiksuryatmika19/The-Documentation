@@ -300,4 +300,20 @@
          <loc>https://mydomain.org/mysite/HTML/Video/</loc>
          <lastmod>2026-06-29</lastmod>
     </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Javascript/Catatan/</loc>
+         <lastmod>2026-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Javascript/Getting%20Started/</loc>
+         <lastmod>2026-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Javascript/Operator/</loc>
+         <lastmod>2026-06-29</lastmod>
+    </url>
+    <url>
+         <loc>https://mydomain.org/mysite/Javascript/Output/</loc>
+         <lastmod>2026-06-29</lastmod>
+    </url>
 </urlset>
