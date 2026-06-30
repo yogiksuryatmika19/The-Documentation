@@ -7,7 +7,7 @@ blockquote {
     background-color: rgba(255, 193, 7, 0.15);
     border: none !important;
     position: relative;
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 5px;
     padding-right: 20px;
     border-radius: 10px;
@@ -373,10 +373,6 @@ nav.md-nav[data-md-level="2"] {
 
 /* dark mode */
 [data-md-color-scheme="slate"] {
-    .md-main {
-        background-color: #16181e;
-    }
-
     /* --------------------------------- heading -------------------------------- */
     .md-typeset h2,
     .md-typeset h3,
